@@ -1,4 +1,4 @@
-FROM node:5.4.1
+FROM node:5.6.0
 
 RUN apt-get update
 RUN apt-get -y install apt-utils
