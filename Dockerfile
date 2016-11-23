@@ -1,6 +1,5 @@
-FROM node:5.6.0
+FROM node:6.9.1
 
 RUN apt-get update
 RUN apt-get -y install apt-utils
-RUN apt-get -y install build-essential
-
+RUN apt-get -y install build-essential python
